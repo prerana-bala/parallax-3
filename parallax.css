@@ -1,0 +1,211 @@
+html,body{
+  background-color: black;
+}
+.navbar-custom{
+  background-color:#18181c;
+  align:right;
+}
+
+.container-item{
+  padding:10px;
+  margin-bottom: 10px;
+  color:#ffff;
+  background-color:inherit;
+}
+
+.cover_item{
+  width:100%;
+  height:100.67vh;
+  background: url('1.1.png') no-repeat ;
+  background-size:cover;
+  overflow: hidden;
+  background-attachment: fixed;
+
+}
+.container-1{
+  padding: 45% 5%;
+}
+.button-part1{
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:16px;
+  padding-right:15px;
+  background-color:black;
+  border-color:white;
+  border-radius:15px;
+  cursor:pointer;
+  display:flex;
+  color:white;
+  margin-left: 40%;
+  position:absolute;
+  bottom: 0px;
+  align-items: center;
+}
+.part2{
+  background-color: black;
+}
+
+.part3{
+
+  height:400px;
+  background: url('confetti.png') no-repeat ;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+.part4{
+  background-color: black;
+  width:100%;
+  height:200px;
+  padding-top:30px ;
+  align-self: center;
+  padding-left: 10%;
+  margin:0px 0px 15px;
+
+}
+
+.card-2{
+
+  align-items: center;
+  font-size: 48px;
+  font-family:"Montserrat",sans-serif;
+  line-height: 1.2;
+  font-weight:400;
+  margin:20px;
+  display:inline-block;
+
+}
+
+.col-12{
+  background-color:#e9ecef;
+  color:black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding:10px 25px 25px 25px;
+}
+
+.tracks_imgs{
+  width:75px;
+  height:75px;
+}
+
+.sponsor_button{
+  background-color:black;
+  border-radius: 50px;
+  line-height: 1.7;
+  outline: 0 !important;
+  border:none;
+  cursor:pointer;
+  color:#f50136;
+  font-weight: bold;
+
+}
+
+.prizes_button{
+  background-color:#F50136;
+  border-radius: 50px;
+  line-height: 1.7;
+  outline: 0 !important;
+  border:none;
+  cursor:pointer;
+  color:white;
+  font-weight: bold;
+  padding:10px;
+}
+
+.spons_button{
+  background-color: #18181C;
+  color:red;
+  font-weight: bold;
+  border:none;
+  padding:10px;
+}
+.spons_img{
+  width:200px;
+  height:100px;
+}
+
+.accordion-control{
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  margin-bottom:10px;
+  background-color: black;
+  color:#FF4B4B;
+  cursor: pointer;
+  width:100%;
+  text-align: left;
+  padding:15px;
+  font-size:18px;
+  outline:none;
+  position: relative;
+
+}
+
+.li{
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+@media only screen and (min-width: 768px){
+  .container-item{
+    align:right;
+  }
+  .cover_item{
+    width:100%;
+    height:90.67vh;
+    background: url('1.1.png') no-repeat center;
+    background-size:cover;
+    overflow: hidden;
+    background-attachment: fixed;
+
+  }
+  .container-1{
+    padding-top:150px;
+    align-self: center;
+  }
+  .navbar{
+    background-color: #18181c;
+  }
+  .card-2{
+    margin:0px auto;
+  }
+  .col-12{
+    margin:0px auto;
+    margin-bottom: 20px;
+    padding:10px 25px 25px 25px;
+    border: 10px solid black;
+  }
+  .col-12-p{
+    color:white;
+    font-size:  14px;
+    font-family: "Montserrat" sans-serif;
+    text-align: justify;
+    text-justify:inter-word;
+  }
+
+}
